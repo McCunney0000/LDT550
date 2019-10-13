@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>HTML Project LDT 550</title>
+        <meta name="description" content="An interactive getting started guide for Brackets.">
+        <link rel="stylesheet" href="main.css">
+<link rel="stylesheet" href="styles.css"
+    </head>
+    <body>
+        
+        <h1>HTML Project LDT 550</h1>
+        <h2>Check out the links below</h2>
+        
+
+        
+        <p>
+            This is a basic HTML page. I will use this to create a news site for sports.
+        </p>
+       This link is to <a href="Page2.html" title="Link to Page2 site">76ers news
+                          </a>        -->
+    
+        <p> Here is a link to <a href="Page3.html" title="link to eagles news">Eagles news</a></p>
+        <p>This link is to <a href="Page4.html" title="Link to Page4 site">Family Pics</p>
+       
+        <html>
+  <head>
+    <title>jQuery Accordion</title>
+    <style>
+      html, body {
+        font-size: 100%;  
+      }
+      
+      .accordion {
+        margin: 50px;
+      }
+      
+      .accordion dt,
+      .accordion dd {
+        padding: 10px;
+        border: 1px solid #000;
+      }
+      
+      .accordion dt a,
+      .accordion dd a {
+        display: block;
+        color: #000;
+        font-weight: bold;
+      }
+      
+      .accordion dt {
+        background-color: #ccc;
+      }
+      
+      .accordion dd {
+        margin: 0;
+        border-top-width: 0;
+        border-bottom-width: 0;
+        font-size: 1rem;
+      }
+      
+      .accordion dd:last-of-type {
+        border-bottom-width: 1px;
+      }
+    </style>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript">
+      jQuery(document).ready(function($){
+        
+        // Hide all panels to start
+        var panels = $('.accordion > dd').hide();
+        
+        // Show first panel on load (optional). Remove if you want
+        panels.first().show();
+        
+        // On click of panel title
+        $('.accordion > dt > a').click(function() {
+          var $this = $(this);
+          
+          // Slide up all other panels
+          panels.slideUp();
+          
+          //Slide down target panel
+          $this.parent().next().slideDown();
+          
+          return false;
+        });
+      });
+    </script>
+  </head>
+  <body>
+    <dl class="accordion">
+      <dt><a href="">Current MLB news</a></dt>
+      <dd>The latest MLB news can be found here</dd>
+      <dt><a href="">Current NBA news</a></dt>
+      <dd>News from all around the national basketball association</dd>
+      <dt><a href="">Current NFL news</a></dt>
+      <dd>Breaking news from the gridiron</dd>
+    </dl>
+  </body>
+</html>
+        
+  
+    </body>
+</html>
+<!--
+
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[     CODE THE WEB     ]:::::]
+    [:::::[  http://brackets.io  ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [:::::[                      ]:::::]
+    [::::::[[[[[[[:      :]]]]]]]::::::]
+    [::::::::::::::      ::::::::::::::]
+    [::::::::::::::      ::::::::::::::]
+    [[[[[[[[[[[[[[[      ]]]]]]]]]]]]]]]
+
+-->
